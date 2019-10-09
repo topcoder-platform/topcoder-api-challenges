@@ -1,0 +1,22 @@
+{
+  "name": "ap_challenge_microservice",
+  "version": "1.0.5",
+  "description": "Services_that_provide_access_and_interaction_with_all_sorts_of_challenges_including_design_dev_single_round_matches_and_marathon_matches_",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
